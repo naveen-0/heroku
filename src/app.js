@@ -3,7 +3,7 @@ const path = require("path");
 const hbs = require("hbs");
 // const partials = require("partials");
 const app = express();
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3000;
 
 // public static path
 const publicPath = path.join(__dirname, "../public");
